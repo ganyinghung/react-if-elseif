@@ -1,7 +1,8 @@
-# Conditional React Compoent Rendering
+## Conditional React Component Rendering
 
+### Why?
 Instead of this:
-```
+```jsx
 <Container>
   {
     condition1 ?
@@ -23,7 +24,7 @@ Instead of this:
 ```
 
 Do this:
-```
+```jsx
 <Container>
   {
     _if(condition1)
@@ -37,3 +38,16 @@ Do this:
   }
 </Container>
 ```
+
+### Installation
+```
+npm i @yhg.io/react-if-elseif
+```
+
+### Usage
+```jsx
+import { _if } from '@yhg.io/react-if-elseif';
+```
+Then see example above.
+
+You may add as many `.elseif()` conditions as you like but always remember to provide an `.else()` and `.endif()` at the end.
