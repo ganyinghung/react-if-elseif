@@ -1,16 +1,24 @@
 {
   "name": "@yhg.io/react-if-elseif",
-  "version": "0.1.1",
-  "description": "",
+  "version": "0.1.2",
+  "description": "Conditional React Component Rendering",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ganyinghung/react-if-elseif.git"
+  },
   "keywords": [],
-  "author": "",
+  "author": "YH Gan <npm@yhg.io>",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ganyinghung/react-if-elseif/issues"
+  },
+  "homepage": "https://github.com/ganyinghung/react-if-elseif",
   "devDependencies": {
     "@types/node": "^20.12.7",
     "@types/react": "^18.3.1",
