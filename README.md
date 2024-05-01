@@ -6,7 +6,7 @@ Instead of this:
   {
     condition1 ?
       <Element1 />
-      :
+    :
       (
         condition2 ?
           <Element2 />
