@@ -24,7 +24,6 @@ export function _if(condition: boolean) {
     return {
       else: _else,
       elseif: _elseif,
-      endif: _endif,
     };
   }
   
