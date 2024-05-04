@@ -1,6 +1,6 @@
 {
   "name": "@yhg.io/react-if-elseif",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Conditional React Component Rendering",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
