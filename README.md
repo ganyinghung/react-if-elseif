@@ -50,4 +50,4 @@ import { _if } from '@yhg.io/react-if-elseif';
 ```
 Then see example above.
 
-You may add as many `.elseif()` conditions as you like but always remember to provide an `.else()` and `.endif()` at the end.
+You may add as many `.elseif()` conditions as you like but always remember to call `.endif()` at the end.
